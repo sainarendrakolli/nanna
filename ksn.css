@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    }
+    
+    
+    .menu-bar{
+        background: rgb(0,100, 0);
+        text-align: center;
+    }
+    .menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: aliceblue;
+    }
+    .menu-bar ul li{
+    width: 120px;
+    margin:15px;
+    padding: 20px;
+    
+    }
+    .menu-bar ul li a{
+    
+    text-decoration: none;
+    color: aliceblue;
+    }
+    .active,.menu-bar ul li:hover{
+    
+        background-color: #2bab0d;
+        border-radius: 3px;}
+        #slider{
+            overflow: hidden;
+        }
+        #slider figure{
+            position: relative;
+            width: 500%;
+            margin: 0;
+            left: 0;
+            animation: 15s slider infinite;
+        }
+        #slider figure img{
+            float: left;
+            width: 20%;
+            height: 500px;
+        }
+        @keyframes slider{
+            0% {
+                left: 0;
+            }
+            20% {
+                left: 0;
+            }
+            25% {
+                left: -100%;
+            } 
+            45% {
+                left: -100%;
+            }
+            50% {
+                left: -200%;
+            }
+            70% {
+                left: -200%;
+            }
+            75% {
+                left: -300%;
+            }
+            95% {
+                left: -300%;
+            }
+            100% {
+                left: -400%;
+            }
+
+
+        }
+        .hi{
+            height: 900px;
+            width: 700px;
+            background: transparent;
+            border-radius: 2px black;
+            position: relative;
+            top: 50%;
+            left: 20%;
+            transform: translate(-30% -30%);
+        }
+        .hi img{
+            height: 400px;
+            width: 600px;
+            position: center;
+            padding: 20px 20px 20px 40px;
+        }
+        .hi p{
+            height: 300px;
+            width:700px ;
+            letter-spacing: 0.5;
+            font-size: 18px;
+            
+        }
+       .hi  button{
+            background-color: rgb(19, 19, 106);
+            color: antiquewhite;
+             position: relative;
+             top:-50px;
+             
+            
+            
+            
+        }
+        .hi button a{
+            text-decoration: none;
+            color: wheat;
+
+
+
+
+        }
+        .hi h1{
+            position: relative;
+            transform: translateX(200px);
+
+
+
+
+        }
+        #title{
+            font-size: 30px;
+            font-weight: bold;
+             position: center;
+        }
+        
+        
+            
+        

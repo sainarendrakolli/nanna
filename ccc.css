@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    border: 0;
+}
+.hello{
+    height: 800px;
+    width: 900px;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    transform: translate(-30% -30%);
+    
+
+}
+.hello p{
+font-size: 19px;
+
+
+
+}
+.hello img{
+    height: 400px;
+    width: 400px;
+    margin-right: 20px;}
+#ksn{
+
+    height: 400px;
+    width: 400px;
+    position: relative;
+    margin-left:250px;
+}
+.hello button{
+height: 20px;
+width: 40px;
+border-radius: 20%;
+background-color: blue;
+color: aliceblue;
+position: relative;
+transform: translateX(400px);
+
+}
